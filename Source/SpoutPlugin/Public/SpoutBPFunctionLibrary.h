@@ -1,12 +1,13 @@
 #pragma once
 
 #if PLATFORM_WINDOWS
-#include "AllowWindowsPlatformTypes.h"
+#include "Windows/AllowWindowsPlatformTypes.h"
+#include "Windows.h"
 #endif
 #include "Spout.h"
 #include <d3d11.h>
 #if PLATFORM_WINDOWS
-#include "HideWindowsPlatformTypes.h"
+#include "Windows/HideWindowsPlatformTypes.h"
 #endif
 
 #include "SpoutBPFunctionLibrary.generated.h"

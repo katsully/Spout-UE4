@@ -1,9 +1,10 @@
 // Some copyright should be here...
 
+#include "SpoutModule.h"
 #include "SpoutPluginPrivatePCH.h"
 
 #include "Core.h"
-#include "ModuleManager.h"
+#include "Modules/ModuleManager.h"
 //#include "IPluginManager.h"
 
 DEFINE_LOG_CATEGORY(SpoutLog);
